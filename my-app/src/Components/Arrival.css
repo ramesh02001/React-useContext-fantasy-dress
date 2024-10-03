@@ -1,0 +1,35 @@
+/* .new-arrival{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 10px;
+
+}
+.new-arrival-container{
+    position: relative;
+    flex-basis: 20%;
+
+
+}
+.new-arrival-container img{
+    width: 80%;
+}
+.new-arrival button{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-top: 10px;
+    color: #1D232c;
+    position: absolute;
+    top:40% ;
+    left: 15%;
+    border-radius: 5px;
+    border: none;
+}
+@media (max-width:700px){
+    .new-arrival{
+        display: block;
+        width: 80%;
+    }
+} */

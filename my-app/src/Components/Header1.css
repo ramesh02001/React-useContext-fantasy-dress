@@ -1,0 +1,32 @@
+.header{
+    display: flex;
+    justify-content: center;
+    gap:50px ;
+    padding: 50px;
+}
+.header-button{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    color: white;
+    background-color:#1d232c ;
+    cursor: pointer;
+}
+.header-img{
+    margin-top: 15px;
+    width: 80%;
+    
+}
+@media   (max-width:700px){
+    .header-img{
+        margin-top: 15px;
+        width: 70%;
+    }
+    .header{
+        display: block;
+        
+    }
+   
+}

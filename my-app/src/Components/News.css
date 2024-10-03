@@ -1,0 +1,27 @@
+.news{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+.news input{
+    padding: 11px;
+    width: 80vw;
+    margin-bottom:10px ;
+    border: solid black 3px;
+}
+.news button{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    color: white;
+    background-color:#1d232c ;
+    cursor: pointer;
+    border-radius: 5px;
+
+   
+    
+
+}

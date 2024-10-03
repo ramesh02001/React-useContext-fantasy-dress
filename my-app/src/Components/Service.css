@@ -1,0 +1,31 @@
+.service{
+    padding: 20px;
+
+}
+.service-container-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.service-container-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   gap: 10px;
+
+}
+.service-container-2 div{
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #f2f4f7;
+}
+@media   (max-width:700px){
+   
+    .service-container-1{
+        display: none;
+    }
+    .service-container-2{
+        flex-direction: column;
+    }
+}
